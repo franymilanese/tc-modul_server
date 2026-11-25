@@ -1,0 +1,15 @@
+# Python-Umgebung und Caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Erzeugte Datenbank (wird aus data/ geladen)
+*.db
+
+# Geheimnisse und lokale Einstellungen
+.env
+.env.*
+
+# macOS
+.DS_Store
